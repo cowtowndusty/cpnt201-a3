@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #322D35;
+  background-image: url(../images/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.wings {
+  fill:rebeccapurple;
+  stroke: #17A8BB;
+  stroke-width: 1px;
+  filter: opacity(.3);
+}
+
+.fuselage {
+  fill: whitesmoke;
+  filter: blur(50px);
+  stroke: whitesmoke;
+  stroke-width: 2px;
+  filter: opacity(.3);
+}
+
+.decal {
+  fill: #6E483E;
+  stroke: #C49C41;
+  stroke-width: 2px;
+  filter: opacity(.3);
+}
+
+.f-window {
+  fill:#17A8BB;
+  stroke: rebeccapurple;
+  stroke-width:2px;
+  filter: opacity(.5);
+}
+
+.f-panels {
+  fill:#17A8BB;
+  stroke: rebeccapurple;
+  stroke-width: 2px;
+  filter: opacity(.7);
+}
+
+@media screen and (max-width: 40rem) {
+  body {
+    background-image: none;
+  }
+  .wings {
+    fill:#DE2C23;
+    stroke: #EEF0F0;
+    stroke-width: 1px;
+    filter: opacity(.3);
+  }
+  
+  .fuselage {
+    fill: #919894;
+    filter: blur(50px);
+    stroke: #919894;
+    stroke-width: 2px;
+    filter: opacity(.3);
+  }
+  
+  .decal {
+    fill: #D99047;
+    stroke: #DE2C23;
+    stroke-width: 1px;
+    filter: opacity(.3);
+  }
+  
+  .f-window {
+    fill:#D99047;
+    stroke: #DE2C23;
+    stroke-width:2px;
+    filter: opacity(.5);
+  }
+  
+  .f-panels {
+    fill:#EEF0F0;
+    stroke: #DE2C23;
+    stroke-width: 2px;
+    filter: opacity(.7);
+  }
+}
+
+
