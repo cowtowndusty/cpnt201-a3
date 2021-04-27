@@ -8,7 +8,7 @@
 
 I created an SVG inspired by the SpaceX's Starship to demonstrate how media queries can be used to completely change the look of a page and the SVG itself.
 
-The image will change with a horizontal breakpoint of 40rem.
+The image/page will change with a horizontal breakpoint of 40rem.
 
 ## Attributions:
 
